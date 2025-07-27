@@ -1,4 +1,4 @@
-import prisma from "../../prisma/db.js";
+import prisma from "../db/client.js";
 
 export default class Initializer {
   static intializeServices() {

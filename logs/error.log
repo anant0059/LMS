@@ -1,0 +1,138 @@
+2025-07-27T22:11:05.482Z [ERROR] ReferenceError: Logger is not defined
+2025-07-27T22:11:46.531Z [ERROR] ReferenceError: Logger is not defined
+2025-07-27T22:11:58.880Z [ERROR] ReferenceError: Logger is not defined
+2025-07-27T22:12:31.406Z [ERROR] ReferenceError: Logger is not defined
+2025-07-27T22:13:07.338Z [ERROR] ReferenceError: Logger is not defined
+2025-07-27T22:14:08.663Z [ERROR] Error During SignUp PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    useremailid: "anantkumar@example.com",
+    username: "Anant Kumar",
+    password: {},
+              ~~
+    role: "admin"
+  }
+}
+
+Argument `password`: Invalid value provided. Expected String, provided Object.
+2025-07-27T22:14:08.664Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    useremailid: "anantkumar@example.com",
+    username: "Anant Kumar",
+    password: {},
+              ~~
+    role: "admin"
+  }
+}
+
+Argument `password`: Invalid value provided. Expected String, provided Object.
+2025-07-27T22:16:26.266Z [ERROR] Error During SignUp ReferenceError: print is not defined
+2025-07-27T22:16:26.268Z [ERROR] ReferenceError: print is not defined
+2025-07-27T22:17:03.467Z [ERROR] Error During SignUp ReferenceError: print is not defined
+2025-07-27T22:17:03.468Z [ERROR] ReferenceError: print is not defined
+2025-07-27T22:17:52.111Z [ERROR] Error During SignUp ReferenceError: print is not defined
+2025-07-27T22:17:52.112Z [ERROR] ReferenceError: print is not defined
+2025-07-27T22:18:14.650Z [ERROR] Error During SignUp ReferenceError: print is not defined
+2025-07-27T22:18:14.651Z [ERROR] ReferenceError: print is not defined
+2025-07-27T22:18:45.242Z [ERROR] Error During SignUp PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    useremailid: "anantkumar@example.com",
+    username: "Anant Kumar",
+    password: {},
+              ~~
+    role: "admin"
+  }
+}
+
+Argument `password`: Invalid value provided. Expected String, provided Object.
+2025-07-27T22:18:45.243Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    useremailid: "anantkumar@example.com",
+    username: "Anant Kumar",
+    password: {},
+              ~~
+    role: "admin"
+  }
+}
+
+Argument `password`: Invalid value provided. Expected String, provided Object.
+2025-07-27T22:21:55.850Z [ERROR] Error During SignUp TypeError: Assignment to constant variable.
+2025-07-27T22:21:55.851Z [ERROR] TypeError: Assignment to constant variable.
+2025-07-27T22:23:35.548Z [ERROR] Error During SignUp InternalServerErrorException: User already exist with this mailid
+2025-07-27T22:23:35.551Z [ERROR] InternalServerErrorException: User already exist with this mailid
+2025-07-27T22:25:19.744Z [ERROR] Error During SignUp PrismaClientKnownRequestError: 
+Invalid `prisma.user.create()` invocation:
+
+
+Unique constraint failed on the fields: (`useremailid`)
+2025-07-27T22:25:19.745Z [ERROR] PrismaClientKnownRequestError: 
+Invalid `prisma.user.create()` invocation:
+
+
+Unique constraint failed on the fields: (`useremailid`)
+2025-07-27T22:25:59.491Z [ERROR] Error During SignUp TypeError: this.JWTHelper.hashRefreshToken is not a function
+2025-07-27T22:25:59.492Z [ERROR] TypeError: this.JWTHelper.hashRefreshToken is not a function
+2025-07-27T22:26:22.181Z [ERROR] Error During SignUp TypeError: this.JWTHelper.hashRefreshToken is not a function
+2025-07-27T22:26:22.181Z [ERROR] TypeError: this.JWTHelper.hashRefreshToken is not a function
+2025-07-27T22:26:53.192Z [ERROR] Error During SignUp TypeError: this.JWTHelper.hashRefreshToken is not a function
+2025-07-27T22:26:53.192Z [ERROR] TypeError: this.JWTHelper.hashRefreshToken is not a function
+2025-07-27T22:29:00.774Z [ERROR] Error During SignUp TypeError: this.JWTHelper.hashRefreshToken is not a function
+2025-07-27T22:29:00.774Z [ERROR] TypeError: this.JWTHelper.hashRefreshToken is not a function
+2025-07-27T22:29:41.049Z [ERROR] Error During SignUp TypeError: this.JWTHelperhashToken is not a function
+2025-07-27T22:29:41.050Z [ERROR] TypeError: this.JWTHelperhashToken is not a function
+2025-07-27T22:32:07.027Z [ERROR] Error During SignIn UnauthorizedException: Invalid password
+2025-07-27T22:32:07.028Z [ERROR] UnauthorizedException: %s
+2025-07-27T22:32:44.208Z [ERROR] Error During SignIn UnauthorizedException: Invalid password
+2025-07-27T22:32:44.209Z [ERROR] UnauthorizedException: %s
+2025-07-27T22:33:29.035Z [ERROR] Error During SignIn ReferenceError: use is not defined
+2025-07-27T22:33:29.036Z [ERROR] ReferenceError: use is not defined
+2025-07-27T22:33:43.478Z [ERROR] Error During SignIn UnauthorizedException: Invalid password
+2025-07-27T22:33:43.479Z [ERROR] UnauthorizedException: %s
+2025-07-27T22:38:59.201Z [ERROR] Error During SignUp ReferenceError: derived is not defined
+2025-07-27T22:38:59.201Z [ERROR] ReferenceError: derived is not defined
+2025-07-27T22:39:42.920Z [ERROR] Error During SignUp TypeError: Assignment to constant variable.
+2025-07-27T22:39:42.921Z [ERROR] TypeError: Assignment to constant variable.
+2025-07-27T22:40:57.455Z [ERROR] Error During SignUp InternalServerErrorException: User already exist with this mailid
+2025-07-27T22:40:57.458Z [ERROR] InternalServerErrorException: User already exist with this mailid
+2025-07-27T22:41:14.442Z [ERROR] Error During SignUp PrismaClientKnownRequestError: 
+Invalid `prisma.user.create()` invocation:
+
+
+Unique constraint failed on the fields: (`useremailid`)
+2025-07-27T22:41:14.442Z [ERROR] PrismaClientKnownRequestError: 
+Invalid `prisma.user.create()` invocation:
+
+
+Unique constraint failed on the fields: (`useremailid`)
+2025-07-27T22:42:03.017Z [ERROR] Error During SignUp TypeError: Assignment to constant variable.
+2025-07-27T22:42:03.018Z [ERROR] TypeError: Assignment to constant variable.
+2025-07-27T22:43:04.722Z [ERROR] Error During SignUp TypeError: Assignment to constant variable.
+2025-07-27T22:43:04.723Z [ERROR] TypeError: Assignment to constant variable.
+2025-07-27T22:44:23.868Z [ERROR] Error During SignUp PrismaClientKnownRequestError: 
+Invalid `prisma.user.create()` invocation:
+
+
+Unique constraint failed on the fields: (`useremailid`)
+2025-07-27T22:44:23.868Z [ERROR] PrismaClientKnownRequestError: 
+Invalid `prisma.user.create()` invocation:
+
+
+Unique constraint failed on the fields: (`useremailid`)
+2025-07-27T22:45:06.413Z [ERROR] ValidationException: %s
+2025-07-27T22:45:25.336Z [ERROR] Error During SignUp InternalServerErrorException: User already exist with this mailid
+2025-07-27T22:45:25.340Z [ERROR] InternalServerErrorException: User already exist with this mailid
+2025-07-27T22:45:57.242Z [ERROR] Error During SignIn ReferenceError: stored is not defined
+2025-07-27T22:45:57.242Z [ERROR] ReferenceError: stored is not defined
+2025-07-27T22:46:44.718Z [ERROR] Error During SignIn ReferenceError: username is not defined
+2025-07-27T22:46:44.718Z [ERROR] ReferenceError: username is not defined

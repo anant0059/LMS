@@ -9,6 +9,12 @@ export default function () {
         },
         app: {
             port: process.env.PORT || 3000,
+            env: "dev"
+        },
+        auth: {
+            jwt_secret: "lms-app",
+            jwt_expires_in: "1h",
+            jwt_expires_refresh_in: "7d",
         }
     };
 }

@@ -1,5 +1,7 @@
+import Logger from "../Utils/Logger";
+
 export async function errorHandler(err, req, res, next) {
-    console.log("errorHandler", err.message)
+    Logger.debug("errorHandler", err.message)
     if (err.name === 'UnauthorizedException') {
         res.status(403).json({ message: err.message });
     } else if (err.name === 'ConflictException') {

@@ -27,6 +27,7 @@ model User {
   enrollments Enrollment[]
   completions LessonCompletion[]
   attempts    QuizAttempt[]
+  refreshTokens  RefreshToken[]
 }
 
 model Course {
@@ -187,4 +188,15 @@ model QuizAnswer {
   updated_at DateTime   @updatedAt
 
   @@index([attemptid])
+}
+
+model RefreshToken {
+  id         String      @id @default(uuid())
+  tokenHash  String   @unique
+  user       User     @relation(fields: [userid], references: [userid])
+  userid     String
+  expires_at  DateTime
+  created_at  DateTime @default(now())
+  updated_at  DateTime @updatedAt
+  revoked    Boolean  @default(false)
 }

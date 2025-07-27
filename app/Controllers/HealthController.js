@@ -6,7 +6,7 @@ export default class HealthController extends Controller {
     super(response);
   }
 
-  checkHealth(request) {
+  async checkHealth(request) {
     try {
       Logger.info("All Ok from health api");
       this.sendResponse({ "msg": "ALL OK!" });

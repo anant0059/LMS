@@ -23,7 +23,6 @@ model User {
   created_at  DateTime @default(now())
   updated_at  DateTime @updatedAt
 
-  courses     Course[]        @relation("InstructorCourses")
   enrollments Enrollment[]
   completions LessonCompletion[]
   attempts    QuizAttempt[]
@@ -36,7 +35,6 @@ model Course {
   description  String?
   price        Float
   instructor   String
-  instructorRel User     @relation("InstructorCourses", fields: [instructor], references: [userid])
   lessons      Lesson[]
   quizzes      Quiz[]
   enrollments  Enrollment[]

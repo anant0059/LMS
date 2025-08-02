@@ -1,4 +1,4 @@
-import Logger from "../Utils/Logger";
+import Logger from "../Utils/Logger.js";
 
 export async function errorHandler(err, req, res, next) {
     Logger.debug("errorHandler", err.message)

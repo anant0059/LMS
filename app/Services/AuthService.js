@@ -126,6 +126,7 @@ export default class AuthService {
         return { token: newToken, refreshToken: newRefreshToken };
     } catch (error) {
         Logger.error(`Error During refreshToken ${error}`);
+        throw new Exceptions.UnauthorizedException("Refresh token is invalid or expired");
     }
   }
 

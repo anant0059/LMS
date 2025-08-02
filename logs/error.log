@@ -136,3 +136,597 @@ Unique constraint failed on the fields: (`useremailid`)
 2025-07-27T22:45:57.242Z [ERROR] ReferenceError: stored is not defined
 2025-07-27T22:46:44.718Z [ERROR] Error During SignIn ReferenceError: username is not defined
 2025-07-27T22:46:44.718Z [ERROR] ReferenceError: username is not defined
+2025-08-02T14:24:00.818Z [ERROR] Error During SignUp InternalServerErrorException: User already exist with this mailid
+2025-08-02T14:24:00.822Z [ERROR] InternalServerErrorException: User already exist with this mailid
+2025-08-02T14:24:22.935Z [ERROR] Error During refreshToken UnauthorizedException: Invalid refresh token
+2025-08-02T14:24:25.175Z [ERROR] Error During refreshToken UnauthorizedException: Invalid refresh token
+2025-08-02T14:27:05.085Z [ERROR] Error During refreshToken UnauthorizedException: Invalid refresh token
+2025-08-02T14:27:05.086Z [ERROR] UnauthorizedException: %s
+2025-08-02T15:01:54.985Z [ERROR] ValidationException: %s
+2025-08-02T15:08:39.804Z [ERROR] Invalid token
+2025-08-02T15:09:16.494Z [ERROR] Invalid token
+2025-08-02T15:09:26.583Z [ERROR] Invalid token
+2025-08-02T15:10:07.086Z [ERROR] Invalid token
+2025-08-02T15:10:27.271Z [ERROR] Invalid token
+2025-08-02T15:10:55.197Z [ERROR] Invalid token
+2025-08-02T15:11:11.135Z [ERROR] Invalid token
+2025-08-02T15:11:23.099Z [ERROR] Invalid token
+2025-08-02T15:13:17.722Z [ERROR] Invalid token
+2025-08-02T15:20:57.025Z [ERROR] Error During SignUp PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    useremailid: "a.a.a.s.nant.kumar@example.com",
+    username: "Anant Kumar",
+    password: "3117adce950a6b7110015e759a0c7c17:0edfb0c93b4d4a064d5081254e6489a50a5f50bdb7bb4ba4eb7227ae88afb8019ea5effa4d46c5ef9b60aa836b7298a4025438829025f7e1b62020d9f2968183",
++   role: String
+  }
+}
+
+Argument `role` is missing.
+2025-08-02T15:20:57.025Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    useremailid: "a.a.a.s.nant.kumar@example.com",
+    username: "Anant Kumar",
+    password: "3117adce950a6b7110015e759a0c7c17:0edfb0c93b4d4a064d5081254e6489a50a5f50bdb7bb4ba4eb7227ae88afb8019ea5effa4d46c5ef9b60aa836b7298a4025438829025f7e1b62020d9f2968183",
++   role: String
+  }
+}
+
+Argument `role` is missing.
+2025-08-02T15:28:23.807Z [ERROR] Error creating course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T15:28:23.809Z [ERROR] InternalServerErrorException: Failed to create course
+2025-08-02T15:28:57.205Z [ERROR] Error creating course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T15:28:57.208Z [ERROR] InternalServerErrorException: Failed to create course
+2025-08-02T15:29:13.025Z [ERROR] Error creating course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T15:29:13.033Z [ERROR] InternalServerErrorException: Failed to create course
+2025-08-02T15:29:26.749Z [ERROR] Error creating course: User does not have permission to create a course
+2025-08-02T15:29:26.752Z [ERROR] InternalServerErrorException: Failed to create course
+2025-08-02T15:29:54.744Z [ERROR] Error creating course: User does not have permission to create a course
+2025-08-02T15:29:54.749Z [ERROR] InternalServerErrorException: Failed to create course
+2025-08-02T15:30:54.156Z [ERROR] Error creating course: User does not have permission to create a course
+2025-08-02T15:30:54.156Z [ERROR] UnauthorizedException: %s
+2025-08-02T15:39:43.201Z [ERROR] Error fetching course: 
+Invalid `prisma.course.findUnique()` invocation:
+
+{
+  where: {
+    courseid: undefined,
+?   AND?: CourseWhereInput | CourseWhereInput[],
+?   OR?: CourseWhereInput[],
+?   NOT?: CourseWhereInput | CourseWhereInput[],
+?   title?: StringFilter | String,
+?   description?: StringNullableFilter | String | Null,
+?   price?: FloatFilter | Float,
+?   instructor?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   lessons?: LessonListRelationFilter,
+?   quizzes?: QuizListRelationFilter,
+?   enrollments?: EnrollmentListRelationFilter
+  }
+}
+
+Argument `where` of type CourseWhereUniqueInput needs at least one of `courseid` arguments. Available options are marked with ?.
+2025-08-02T15:39:43.206Z [ERROR] InternalServerErrorException: Failed to fetch course
+2025-08-02T15:40:49.634Z [ERROR] Error fetching course: 
+Invalid `prisma.course.findUnique()` invocation:
+
+{
+  where: {
+    courseid: undefined,
+?   AND?: CourseWhereInput | CourseWhereInput[],
+?   OR?: CourseWhereInput[],
+?   NOT?: CourseWhereInput | CourseWhereInput[],
+?   title?: StringFilter | String,
+?   description?: StringNullableFilter | String | Null,
+?   price?: FloatFilter | Float,
+?   instructor?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   lessons?: LessonListRelationFilter,
+?   quizzes?: QuizListRelationFilter,
+?   enrollments?: EnrollmentListRelationFilter
+  }
+}
+
+Argument `where` of type CourseWhereUniqueInput needs at least one of `courseid` arguments. Available options are marked with ?.
+2025-08-02T15:40:49.639Z [ERROR] InternalServerErrorException: Failed to fetch course
+2025-08-02T15:41:54.914Z [ERROR] Error fetching course: Cannot convert object to primitive value
+2025-08-02T15:41:54.919Z [ERROR] InternalServerErrorException: Failed to fetch course
+2025-08-02T15:43:19.213Z [ERROR] Error fetching course: Cannot read properties of undefined (reading 'courseid')
+2025-08-02T15:43:19.226Z [ERROR] InternalServerErrorException: Failed to fetch course
+2025-08-02T15:43:29.449Z [ERROR] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2025-08-02T15:43:46.800Z [ERROR] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2025-08-02T15:43:55.973Z [ERROR] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2025-08-02T15:44:13.368Z [ERROR] Error fetching course: Cannot read properties of undefined (reading 'courseid')
+2025-08-02T15:44:13.380Z [ERROR] InternalServerErrorException: Failed to fetch course
+2025-08-02T15:44:27.337Z [ERROR] Error fetching course: Cannot read properties of undefined (reading 'courseid')
+2025-08-02T15:44:27.339Z [ERROR] InternalServerErrorException: Failed to fetch course
+2025-08-02T15:44:49.812Z [ERROR] Error fetching course: 
+Invalid `prisma.course.findUnique()` invocation:
+
+{
+  where: {
+    courseid: undefined,
+?   AND?: CourseWhereInput | CourseWhereInput[],
+?   OR?: CourseWhereInput[],
+?   NOT?: CourseWhereInput | CourseWhereInput[],
+?   title?: StringFilter | String,
+?   description?: StringNullableFilter | String | Null,
+?   price?: FloatFilter | Float,
+?   instructor?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   lessons?: LessonListRelationFilter,
+?   quizzes?: QuizListRelationFilter,
+?   enrollments?: EnrollmentListRelationFilter
+  }
+}
+
+Argument `where` of type CourseWhereUniqueInput needs at least one of `courseid` arguments. Available options are marked with ?.
+2025-08-02T15:44:49.816Z [ERROR] InternalServerErrorException: Failed to fetch course
+2025-08-02T17:19:05.828Z [ERROR] Invalid token
+2025-08-02T17:19:32.221Z [ERROR] Error During SignIn PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    usermailid: "a.a.a.s.nant.kumar@example.com",
+    ~~~~~~~~~~
+?   userid?: String,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Unknown argument `usermailid`. Did you mean `useremailid`? Available options are marked with ?.
+2025-08-02T17:19:32.222Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    usermailid: "a.a.a.s.nant.kumar@example.com",
+    ~~~~~~~~~~
+?   userid?: String,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Unknown argument `usermailid`. Did you mean `useremailid`? Available options are marked with ?.
+2025-08-02T17:20:17.960Z [ERROR] Error During SignIn PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    usermailid: "a.a.a.s.nant.kumar@example.com",
+    ~~~~~~~~~~
+?   userid?: String,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Unknown argument `usermailid`. Did you mean `useremailid`? Available options are marked with ?.
+2025-08-02T17:20:17.960Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    usermailid: "a.a.a.s.nant.kumar@example.com",
+    ~~~~~~~~~~
+?   userid?: String,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Unknown argument `usermailid`. Did you mean `useremailid`? Available options are marked with ?.
+2025-08-02T17:20:46.166Z [ERROR] Error During SignIn PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    usermailid: "a.a.a.s.nant.kumar@example.com",
+    ~~~~~~~~~~
+?   userid?: String,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Unknown argument `usermailid`. Did you mean `useremailid`? Available options are marked with ?.
+2025-08-02T17:20:46.171Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    usermailid: "a.a.a.s.nant.kumar@example.com",
+    ~~~~~~~~~~
+?   userid?: String,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Unknown argument `usermailid`. Did you mean `useremailid`? Available options are marked with ?.
+2025-08-02T17:38:01.807Z [ERROR] Error creating course: User does not have permission to create a course
+2025-08-02T17:38:01.808Z [ERROR] UnauthorizedException: %s
+2025-08-02T17:40:32.836Z [ERROR] Invalid token
+2025-08-02T17:40:54.420Z [ERROR] Error enrolling in course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:40:54.425Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:42:10.123Z [ERROR] Error enrolling in course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:42:10.125Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:42:37.710Z [ERROR] Error enrolling in course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:42:37.710Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:43:32.320Z [ERROR] Error enrolling in course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:43:32.321Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:43:49.689Z [ERROR] Error enrolling in course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:43:49.690Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:46:42.431Z [ERROR] Invalid token

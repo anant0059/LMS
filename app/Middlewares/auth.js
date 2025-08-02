@@ -1,24 +1,33 @@
-import jwt from 'jsonwebtoken';
-import prisma from '../db/client.js';
+import jwt from "jsonwebtoken";
+import UserRepository from "../db/Repository/UserRepository.js";
+import JWTHelper from "../Utils/JwtHelper.js";
+import * as Exceptions from "../Exceptions/Exceptions.js";
+import Logger from "../Utils/Logger.js";
 
-exports.protect = async (req, res, next) => {
-  const auth = req.headers.authorization;
-  if (!auth?.startsWith('Bearer ')) {
-    return res.status(401).json({ message: 'Unauthorized' });
-  }
-
+export default async function protect(req, res, next) {
   try {
-    const { id } = jwt.verify(auth.split(' ')[1], process.env.JWT_SECRET);
-    const user = await prisma.user.findUnique({
-      where: { id },
-      select: { id: true, name: true, email: true },
-    });
-    if (!user) {
-      return res.status(401).json({ message: 'User not found' });
+    const auth = req.headers.authorization || req.headers.Authorization;
+    console.log("Authorization Header:", auth);
+    if (!auth || !auth?.startsWith("Bearer ")) {
+      return next(res.status(401).json({ message: "Please Provide a token" }));
     }
-    req.user = user;
+
+    const token = auth.split(" ")[1];
+    console.log("Extracted Token:", token);
+    if (!token) {
+      return next(
+        res.status(401).json({ message: "Please Provide a valid token" })
+      );
+    }
+    console.log("Token to Verify:", token);
+    const JWTHelperInstance = new JWTHelper();
+    const userDetail = await JWTHelperInstance.verifyToken(token);
+    console.log("User Details from Token:", userDetail);
+    req.userDetail = userDetail;
+    console.log("User Details:", req.userDetail);
     next();
   } catch {
-    res.status(401).json({ message: 'Invalid or expired token' });
+    Logger.error("Invalid token");
+    next(res.status(401).json({ message: "Please Provide a valid token" }));
   }
 };

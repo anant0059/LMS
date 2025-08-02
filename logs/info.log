@@ -1249,3 +1249,824 @@ Unique constraint failed on the fields: (`useremailid`)
 2025-07-27T22:47:44.619Z [INFO] Server Started Successfully on 3000
 2025-07-27T22:47:48.245Z [INFO] Server Started Successfully on 3000
 2025-07-27T22:47:57.882Z [INFO] Server Started Successfully on 3000
+2025-07-28T18:00:30.690Z [INFO] Server Started Successfully on 3000
+2025-07-28T18:00:39.934Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:23:51.446Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:24:00.818Z [ERROR] Error During SignUp InternalServerErrorException: User already exist with this mailid
+2025-08-02T14:24:00.822Z [ERROR] InternalServerErrorException: User already exist with this mailid
+2025-08-02T14:24:22.935Z [ERROR] Error During refreshToken UnauthorizedException: Invalid refresh token
+2025-08-02T14:24:25.175Z [ERROR] Error During refreshToken UnauthorizedException: Invalid refresh token
+2025-08-02T14:25:23.997Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:25:27.154Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:25:40.485Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:26:53.837Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:26:57.983Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:27:00.047Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:27:05.085Z [ERROR] Error During refreshToken UnauthorizedException: Invalid refresh token
+2025-08-02T14:27:05.086Z [ERROR] UnauthorizedException: %s
+2025-08-02T14:29:46.230Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:29:47.640Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:47:23.453Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:47:26.342Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:47:41.273Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:47:42.325Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:47:44.355Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:48:04.386Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:48:07.199Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:48:08.288Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:48:09.631Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:48:20.753Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:48:23.811Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:48:25.098Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:48:44.819Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:48:46.692Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:48:50.861Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:48:54.188Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:48:56.128Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:49:16.797Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:49:18.808Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:49:26.349Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:49:46.467Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:49:47.514Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:49:48.720Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:49:55.579Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:49:57.716Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:50:06.098Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:50:15.565Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:50:42.840Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:50:44.384Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:50:45.884Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:50:48.011Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:50:55.018Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:50:57.301Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:50:59.064Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:52:01.182Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:52:11.209Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:52:12.928Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:52:25.386Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:52:28.502Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:52:37.286Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:52:47.101Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:53:09.692Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:53:12.270Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:53:25.841Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:53:28.912Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:53:51.699Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:53:58.582Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:54:03.206Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:54:05.350Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:54:10.495Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:54:24.243Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:54:26.849Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:54:34.961Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:54:38.853Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:55:49.180Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:55:53.304Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:55:54.861Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:55:56.097Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:56:03.705Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:56:07.084Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:57:57.416Z [INFO] Server Started Successfully on 3000
+2025-08-02T14:58:03.716Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:01:51.774Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:01:54.985Z [ERROR] ValidationException: %s
+2025-08-02T15:03:20.234Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:05:30.100Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:07:50.588Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:08:39.804Z [ERROR] Invalid token
+2025-08-02T15:09:11.936Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:09:14.079Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:09:16.494Z [ERROR] Invalid token
+2025-08-02T15:09:24.222Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:09:26.583Z [ERROR] Invalid token
+2025-08-02T15:10:04.248Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:10:07.086Z [ERROR] Invalid token
+2025-08-02T15:10:24.964Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:10:27.271Z [ERROR] Invalid token
+2025-08-02T15:10:52.604Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:10:55.197Z [ERROR] Invalid token
+2025-08-02T15:11:06.538Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:11:09.300Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:11:11.135Z [ERROR] Invalid token
+2025-08-02T15:11:20.218Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:11:21.014Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:11:23.099Z [ERROR] Invalid token
+2025-08-02T15:12:35.283Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:12:49.263Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:12:59.078Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:13:01.776Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:13:10.173Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:13:12.163Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:13:13.577Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:13:17.722Z [ERROR] Invalid token
+2025-08-02T15:13:28.295Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:13:32.015Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:13:36.703Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:15:33.378Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:20:57.025Z [ERROR] Error During SignUp PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    useremailid: "a.a.a.s.nant.kumar@example.com",
+    username: "Anant Kumar",
+    password: "3117adce950a6b7110015e759a0c7c17:0edfb0c93b4d4a064d5081254e6489a50a5f50bdb7bb4ba4eb7227ae88afb8019ea5effa4d46c5ef9b60aa836b7298a4025438829025f7e1b62020d9f2968183",
++   role: String
+  }
+}
+
+Argument `role` is missing.
+2025-08-02T15:20:57.025Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.create()` invocation:
+
+{
+  data: {
+    useremailid: "a.a.a.s.nant.kumar@example.com",
+    username: "Anant Kumar",
+    password: "3117adce950a6b7110015e759a0c7c17:0edfb0c93b4d4a064d5081254e6489a50a5f50bdb7bb4ba4eb7227ae88afb8019ea5effa4d46c5ef9b60aa836b7298a4025438829025f7e1b62020d9f2968183",
++   role: String
+  }
+}
+
+Argument `role` is missing.
+2025-08-02T15:24:34.643Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:25:01.037Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:25:08.061Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:25:16.309Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:25:29.843Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:25:31.508Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:26:01.944Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:26:25.417Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:26:30.327Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:26:57.146Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:27:06.856Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:28:19.432Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:28:23.807Z [ERROR] Error creating course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T15:28:23.809Z [ERROR] InternalServerErrorException: Failed to create course
+2025-08-02T15:28:48.079Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:28:54.760Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:28:57.205Z [ERROR] Error creating course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T15:28:57.208Z [ERROR] InternalServerErrorException: Failed to create course
+2025-08-02T15:29:06.373Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:29:09.185Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:29:13.025Z [ERROR] Error creating course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T15:29:13.033Z [ERROR] InternalServerErrorException: Failed to create course
+2025-08-02T15:29:23.689Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:29:26.749Z [ERROR] Error creating course: User does not have permission to create a course
+2025-08-02T15:29:26.752Z [ERROR] InternalServerErrorException: Failed to create course
+2025-08-02T15:29:37.931Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:29:39.989Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:29:42.045Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:29:54.744Z [ERROR] Error creating course: User does not have permission to create a course
+2025-08-02T15:29:54.749Z [ERROR] InternalServerErrorException: Failed to create course
+2025-08-02T15:30:50.934Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:30:52.606Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:30:54.156Z [ERROR] Error creating course: User does not have permission to create a course
+2025-08-02T15:30:54.156Z [ERROR] UnauthorizedException: %s
+2025-08-02T15:38:22.296Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:38:28.568Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:38:40.477Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:38:49.867Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:38:56.583Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:39:40.461Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:39:43.201Z [ERROR] Error fetching course: 
+Invalid `prisma.course.findUnique()` invocation:
+
+{
+  where: {
+    courseid: undefined,
+?   AND?: CourseWhereInput | CourseWhereInput[],
+?   OR?: CourseWhereInput[],
+?   NOT?: CourseWhereInput | CourseWhereInput[],
+?   title?: StringFilter | String,
+?   description?: StringNullableFilter | String | Null,
+?   price?: FloatFilter | Float,
+?   instructor?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   lessons?: LessonListRelationFilter,
+?   quizzes?: QuizListRelationFilter,
+?   enrollments?: EnrollmentListRelationFilter
+  }
+}
+
+Argument `where` of type CourseWhereUniqueInput needs at least one of `courseid` arguments. Available options are marked with ?.
+2025-08-02T15:39:43.206Z [ERROR] InternalServerErrorException: Failed to fetch course
+2025-08-02T15:40:46.739Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:40:49.634Z [ERROR] Error fetching course: 
+Invalid `prisma.course.findUnique()` invocation:
+
+{
+  where: {
+    courseid: undefined,
+?   AND?: CourseWhereInput | CourseWhereInput[],
+?   OR?: CourseWhereInput[],
+?   NOT?: CourseWhereInput | CourseWhereInput[],
+?   title?: StringFilter | String,
+?   description?: StringNullableFilter | String | Null,
+?   price?: FloatFilter | Float,
+?   instructor?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   lessons?: LessonListRelationFilter,
+?   quizzes?: QuizListRelationFilter,
+?   enrollments?: EnrollmentListRelationFilter
+  }
+}
+
+Argument `where` of type CourseWhereUniqueInput needs at least one of `courseid` arguments. Available options are marked with ?.
+2025-08-02T15:40:49.639Z [ERROR] InternalServerErrorException: Failed to fetch course
+2025-08-02T15:41:27.895Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:41:31.352Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:41:53.295Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:41:54.914Z [ERROR] Error fetching course: Cannot convert object to primitive value
+2025-08-02T15:41:54.919Z [ERROR] InternalServerErrorException: Failed to fetch course
+2025-08-02T15:42:59.837Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:43:07.710Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:43:10.901Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:43:14.344Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:43:15.477Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:43:19.213Z [ERROR] Error fetching course: Cannot read properties of undefined (reading 'courseid')
+2025-08-02T15:43:19.226Z [ERROR] InternalServerErrorException: Failed to fetch course
+2025-08-02T15:43:26.858Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:43:29.449Z [ERROR] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2025-08-02T15:43:46.800Z [ERROR] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2025-08-02T15:43:53.849Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:43:55.973Z [ERROR] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2025-08-02T15:44:09.236Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:44:11.431Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:44:13.368Z [ERROR] Error fetching course: Cannot read properties of undefined (reading 'courseid')
+2025-08-02T15:44:13.380Z [ERROR] InternalServerErrorException: Failed to fetch course
+2025-08-02T15:44:26.268Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:44:27.337Z [ERROR] Error fetching course: Cannot read properties of undefined (reading 'courseid')
+2025-08-02T15:44:27.339Z [ERROR] InternalServerErrorException: Failed to fetch course
+2025-08-02T15:44:46.723Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:44:49.812Z [ERROR] Error fetching course: 
+Invalid `prisma.course.findUnique()` invocation:
+
+{
+  where: {
+    courseid: undefined,
+?   AND?: CourseWhereInput | CourseWhereInput[],
+?   OR?: CourseWhereInput[],
+?   NOT?: CourseWhereInput | CourseWhereInput[],
+?   title?: StringFilter | String,
+?   description?: StringNullableFilter | String | Null,
+?   price?: FloatFilter | Float,
+?   instructor?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   lessons?: LessonListRelationFilter,
+?   quizzes?: QuizListRelationFilter,
+?   enrollments?: EnrollmentListRelationFilter
+  }
+}
+
+Argument `where` of type CourseWhereUniqueInput needs at least one of `courseid` arguments. Available options are marked with ?.
+2025-08-02T15:44:49.816Z [ERROR] InternalServerErrorException: Failed to fetch course
+2025-08-02T15:45:25.120Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:45:26.227Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:45:27.566Z [INFO] Server Started Successfully on 3000
+2025-08-02T15:45:29.619Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:07:57.201Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:08:02.094Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:08:24.322Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:08:27.491Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:08:31.095Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:08:34.787Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:08:38.300Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:08:42.930Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:09:15.860Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:09:17.957Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:09:28.316Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:09:34.644Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:09:36.734Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:09:43.323Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:09:53.484Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:10:03.547Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:10:21.158Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:10:31.201Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:10:34.279Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:10:37.072Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:10:53.760Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:10:59.108Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:11:03.044Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:11:17.195Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:11:19.191Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:12:14.613Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:12:16.173Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:12:20.968Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:12:26.758Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:12:31.181Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:12:37.123Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:12:40.235Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:12:41.433Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:12:44.627Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:13:31.584Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:13:39.226Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:13:46.023Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:14:05.113Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:14:12.844Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:14:19.979Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:14:26.053Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:14:28.716Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:14:30.278Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:14:55.177Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:15:40.395Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:15:42.472Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:15:44.462Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:16:17.377Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:19:05.828Z [ERROR] Invalid token
+2025-08-02T17:19:32.221Z [ERROR] Error During SignIn PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    usermailid: "a.a.a.s.nant.kumar@example.com",
+    ~~~~~~~~~~
+?   userid?: String,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Unknown argument `usermailid`. Did you mean `useremailid`? Available options are marked with ?.
+2025-08-02T17:19:32.222Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    usermailid: "a.a.a.s.nant.kumar@example.com",
+    ~~~~~~~~~~
+?   userid?: String,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Unknown argument `usermailid`. Did you mean `useremailid`? Available options are marked with ?.
+2025-08-02T17:20:17.960Z [ERROR] Error During SignIn PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    usermailid: "a.a.a.s.nant.kumar@example.com",
+    ~~~~~~~~~~
+?   userid?: String,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Unknown argument `usermailid`. Did you mean `useremailid`? Available options are marked with ?.
+2025-08-02T17:20:17.960Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    usermailid: "a.a.a.s.nant.kumar@example.com",
+    ~~~~~~~~~~
+?   userid?: String,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Unknown argument `usermailid`. Did you mean `useremailid`? Available options are marked with ?.
+2025-08-02T17:20:46.166Z [ERROR] Error During SignIn PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    usermailid: "a.a.a.s.nant.kumar@example.com",
+    ~~~~~~~~~~
+?   userid?: String,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Unknown argument `usermailid`. Did you mean `useremailid`? Available options are marked with ?.
+2025-08-02T17:20:46.171Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    usermailid: "a.a.a.s.nant.kumar@example.com",
+    ~~~~~~~~~~
+?   userid?: String,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Unknown argument `usermailid`. Did you mean `useremailid`? Available options are marked with ?.
+2025-08-02T17:33:31.687Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:34:50.655Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:34:57.844Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:34:59.308Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:36:28.103Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:37:07.243Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:37:12.861Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:38:01.807Z [ERROR] Error creating course: User does not have permission to create a course
+2025-08-02T17:38:01.808Z [ERROR] UnauthorizedException: %s
+2025-08-02T17:39:06.522Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:39:30.231Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:39:36.802Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:39:42.364Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:39:53.884Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:39:56.003Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:40:32.836Z [ERROR] Invalid token
+2025-08-02T17:40:54.420Z [ERROR] Error enrolling in course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:40:54.425Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:42:01.377Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:42:03.392Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:42:05.982Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:42:10.123Z [ERROR] Error enrolling in course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:42:10.125Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:42:19.177Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:42:20.981Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:42:26.505Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:42:31.697Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:42:35.829Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:42:37.710Z [ERROR] Error enrolling in course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:42:37.710Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:43:18.531Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:43:22.053Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:43:24.734Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:43:26.152Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:43:32.320Z [ERROR] Error enrolling in course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:43:32.321Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:43:45.823Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:43:47.155Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:43:49.689Z [ERROR] Error enrolling in course: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:43:49.690Z [ERROR] PrismaClientValidationError: 
+Invalid `prisma.user.findUnique()` invocation:
+
+{
+  where: {
+    userid: undefined,
+?   useremailid?: String,
+?   AND?: UserWhereInput | UserWhereInput[],
+?   OR?: UserWhereInput[],
+?   NOT?: UserWhereInput | UserWhereInput[],
+?   username?: StringFilter | String,
+?   password?: StringFilter | String,
+?   role?: StringFilter | String,
+?   created_at?: DateTimeFilter | DateTime,
+?   updated_at?: DateTimeFilter | DateTime,
+?   enrollments?: EnrollmentListRelationFilter,
+?   completions?: LessonCompletionListRelationFilter,
+?   attempts?: QuizAttemptListRelationFilter,
+?   refreshTokens?: RefreshTokenListRelationFilter
+  }
+}
+
+Argument `where` of type UserWhereUniqueInput needs at least one of `userid` or `useremailid` arguments. Available options are marked with ?.
+2025-08-02T17:45:07.883Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:45:13.367Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:45:18.908Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:45:20.331Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:45:23.108Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:45:25.705Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:45:28.122Z [INFO] Server Started Successfully on 3000
+2025-08-02T17:46:42.431Z [ERROR] Invalid token

@@ -24,8 +24,10 @@ export default class JWTHelper {
 
   async verifyToken(token) {
     try {
+      console.log("Verifying Token:", token);
       const secret = process.lms.auth.jwt_secret;
       const decoded = jwt.verify(token, secret);
+      console.log("Decoded Token:", decoded);
       return decoded;
     } catch (error) {
       throw new Exceptions.PermissionDeniedException(

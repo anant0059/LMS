@@ -7,6 +7,12 @@ export default class UserRepository {
         });
     }
 
+    async get(args) {
+        return await prisma.user.findFirst({
+            where: args
+        });
+    }
+
     async getUserById(userid) {
         return await prisma.user.findUnique({
             where: { userid: userid }
@@ -15,7 +21,7 @@ export default class UserRepository {
 
     async getUserByEmail(useremailid) {
         return await prisma.user.findUnique({
-            where: { useremailid }
+            where: { useremailid: useremailid }
         });
     }
 }

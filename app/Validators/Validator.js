@@ -20,4 +20,16 @@ export default {
   logout: Joi.object().keys({
     refreshToken: Joi.string().required(),
   }),
+
+  createCourse: Joi.object().keys({
+    title: Joi.string().required(),
+    description: Joi.string().required(),
+    instructor: Joi.string().required(),
+    price: Joi.number().required(),
+  }),
+
+  enrollInCourse: Joi.object().keys({
+    courseid: Joi.string().required(),
+    userid: Joi.string().required(),
+  }),
 };

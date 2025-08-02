@@ -6,4 +6,22 @@ export default class QuestionRepository {
       data,
     });
   }
+
+  async getQuestionOptions(args) {
+    return await prisma.question.findMany({
+      where: args,
+      include: {
+        options: true,
+      },
+    });
+  }
+
+  async findAllQuestionOptions() {
+    return await prisma.question.findMany({
+      include: {
+        options: true,
+      },
+    });
+  }
+  
 }

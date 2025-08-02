@@ -199,7 +199,7 @@ exports.Prisma.QuizQuestionScalarFieldEnum = {
   updated_at: 'updated_at'
 };
 
-exports.Prisma.QuizOptionScalarFieldEnum = {
+exports.Prisma.QuestionOptionScalarFieldEnum = {
   optionid: 'optionid',
   questionid: 'questionid',
   text: 'text',
@@ -265,7 +265,7 @@ exports.Prisma.ModelName = {
   Question: 'Question',
   Quiz: 'Quiz',
   QuizQuestion: 'QuizQuestion',
-  QuizOption: 'QuizOption',
+  QuestionOption: 'QuestionOption',
   QuizAttempt: 'QuizAttempt',
   QuizAnswer: 'QuizAnswer',
   RefreshToken: 'RefreshToken'

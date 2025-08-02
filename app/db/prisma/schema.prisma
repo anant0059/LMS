@@ -106,7 +106,7 @@ model LessonCompletion {
 model Question {
   questionid String    @id @default(uuid())
   text       String
-  options    QuizOption[]
+  options    QuestionOption[]
   quizLinks  QuizQuestion[]
 
   created_at DateTime  @default(now())
@@ -140,7 +140,7 @@ model QuizQuestion {
   @@index([questionid])
 }
 
-model QuizOption {
+model QuestionOption {
   optionid     String    @id @default(uuid())
   questionid   String
   question     Question  @relation(fields: [questionid], references: [questionid])
@@ -179,7 +179,7 @@ model QuizAnswer {
   attemptid String
   attempt   QuizAttempt @relation(fields: [attemptid], references: [attemptid])
   optionid  String
-  option    QuizOption  @relation("OptionToAnswer", fields: [optionid], references: [optionid])
+  option    QuestionOption  @relation("OptionToAnswer", fields: [optionid], references: [optionid])
   is_correct Boolean
 
   created_at DateTime   @default(now())

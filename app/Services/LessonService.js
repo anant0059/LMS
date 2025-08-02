@@ -5,7 +5,7 @@ import LessonCompletionRepository from "../db/Repository/LessonCompletionReposit
 import LessonResourceRepository from "../db/Repository/LessonResourceRepository.js";
 import UserRepository from "../db/Repository/UserRepository.js";
 import EnrollmentRepository from "../db/Repository/EnrollmentReposioty.js";
-import CourseRepository from "../db/Repository/courseRepository.js";
+import CourseRepository from "../db/Repository/CourseRepository.js";
 
 export default class LessonService {
   constructor() {

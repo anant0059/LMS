@@ -6,4 +6,10 @@ export default class QuizOptionRepository {
       data,
     });
   }
+
+  async get(args) {
+    return await prisma.quizOption.findFirst({
+      where: args,
+    });
+  }
 }

@@ -1,6 +1,6 @@
 import Logger from "../Utils/Logger.js";
 import * as Exceptions from "../Exceptions/Exceptions.js";
-import CourseRepository from "../db/Repository/courseRepository.js";
+import CourseRepository from "../db/Repository/CourseRepository.js";
 import UserRepository from "../db/Repository/UserRepository.js";
 import EnrollmentRepository from "../db/Repository/EnrollmentReposioty.js";
 

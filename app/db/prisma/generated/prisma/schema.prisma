@@ -1,0 +1,200 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../prisma/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  userid      String   @id @default(uuid())
+  useremailid String   @unique
+  username    String
+  password    String
+  role        String
+  created_at  DateTime @default(now())
+  updated_at  DateTime @updatedAt
+
+  enrollments   Enrollment[]
+  completions   LessonCompletion[]
+  attempts      QuizAttempt[]
+  refreshTokens RefreshToken[]
+}
+
+model Course {
+  courseid    String       @id @default(uuid())
+  title       String
+  description String?
+  price       Float
+  instructor  String
+  lessons     Lesson[]
+  quizzes     Quiz[]
+  enrollments Enrollment[]
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+model Lesson {
+  lessonid      String             @id @default(uuid())
+  courseid      String
+  course        Course             @relation(fields: [courseid], references: [courseid])
+  title         String
+  videourl      String?
+  display_order Int
+  resources     LessonResource[]
+  completions   LessonCompletion[]
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@index([courseid])
+}
+
+model LessonResource {
+  resourceid    String @id @default(uuid())
+  lessonid      String
+  lesson        Lesson @relation(fields: [lessonid], references: [lessonid])
+  resource_link String
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@index([lessonid])
+}
+
+model Enrollment {
+  enrollmentid String   @id @default(uuid())
+  userid       String
+  user         User     @relation(fields: [userid], references: [userid])
+  courseid     String
+  course       Course   @relation(fields: [courseid], references: [courseid])
+  enrolled_on  DateTime @default(now())
+  progress_pct Float    @default(0)
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@unique([userid, courseid])
+  @@index([userid])
+  @@index([courseid])
+}
+
+model LessonCompletion {
+  completionid String   @id @default(uuid())
+  userid       String
+  user         User     @relation(fields: [userid], references: [userid])
+  lessonid     String
+  lesson       Lesson   @relation(fields: [lessonid], references: [lessonid])
+  completed_on DateTime @default(now())
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@unique([userid, lessonid])
+  @@index([lessonid])
+}
+
+model Question {
+  questionid String           @id @default(uuid())
+  text       String
+  options    QuestionOption[]
+  quizLinks  QuizQuestion[]
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+}
+
+model Quiz {
+  quizid    String         @id @default(uuid())
+  courseid  String
+  course    Course         @relation(fields: [courseid], references: [courseid])
+  questions QuizQuestion[]
+  attempts  QuizAttempt[]
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@index([courseid])
+}
+
+model QuizQuestion {
+  quizid        String
+  questionid    String
+  quiz          Quiz     @relation(fields: [quizid], references: [quizid])
+  question      Question @relation(fields: [questionid], references: [questionid])
+  display_order Int
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@id([quizid, questionid])
+  @@index([questionid])
+}
+
+model QuestionOption {
+  optionid      String       @id @default(uuid())
+  questionid    String
+  question      Question     @relation(fields: [questionid], references: [questionid])
+  text          String
+  is_correct    Boolean
+  display_order Int
+  answers       QuizAnswer[] @relation("OptionToAnswer")
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@index([questionid])
+}
+
+model QuizAttempt {
+  attemptid   String    @id @default(uuid())
+  userid      String
+  user        User      @relation(fields: [userid], references: [userid])
+  quizid      String
+  quiz        Quiz      @relation(fields: [quizid], references: [quizid])
+  started_at  DateTime  @default(now())
+  finished_at DateTime?
+  score       Int?
+
+  answers QuizAnswer[]
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@index([userid])
+  @@index([quizid])
+}
+
+model QuizAnswer {
+  answerid   String         @id @default(uuid())
+  attemptid  String
+  attempt    QuizAttempt    @relation(fields: [attemptid], references: [attemptid])
+  optionid   String
+  option     QuestionOption @relation("OptionToAnswer", fields: [optionid], references: [optionid])
+  is_correct Boolean
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@index([attemptid])
+}
+
+model RefreshToken {
+  id         String   @id @default(uuid())
+  tokenHash  String   @unique
+  user       User     @relation(fields: [userid], references: [userid])
+  userid     String
+  expires_at DateTime
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  revoked    Boolean  @default(false)
+}

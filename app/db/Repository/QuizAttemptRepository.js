@@ -6,4 +6,10 @@ export default class QuizAttemptRepository {
       data,
     });
   }
+
+  async getResultsByQuizId(quizId) {
+    return await prisma.quizAttempt.findMany({
+      where: { quizid: quizId },
+    });
+  }
 }

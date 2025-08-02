@@ -1,7 +1,7 @@
 node_modules
 # Keep environment variables out of version control
-.env
+# .env
 
-app/db/prisma/generated/prisma
+# app/db/prisma/generated/prisma
 
-logs
+# logs

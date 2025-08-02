@@ -12,4 +12,11 @@ export default class EnrollmentRepository {
       where: args,
     });
   }
+
+  async update(args1, args2) {
+    return await prisma.enrollment.update({
+      where: args1,
+      data: args2,
+    });
+  }
 }
